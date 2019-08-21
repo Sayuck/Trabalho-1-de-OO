@@ -1,13 +1,16 @@
 class Venda
 {
 private:
+    int qtdprodutos;
+    bool desconto;
+
     
 public:
-    Venda(/* args */);
+    Venda(int valorpago);
     ~Venda();
 };
 
-Venda::Venda(/* args */)
+Venda::Venda(int valorpago)
 {
 }
 

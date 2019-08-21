@@ -3,6 +3,7 @@ class Estoque
 private:
     int quantidade;
     int cadastrados;
+    int tipos;
     
 
 public:

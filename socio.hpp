@@ -1,9 +1,10 @@
 class Socio
 {
 private:
+    bool socio;
     
 public:
-    Socio(/* args */);
+    Socio();
     ~Socio();
 };
 
