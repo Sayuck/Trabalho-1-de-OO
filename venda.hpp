@@ -1,8 +1,13 @@
 class Venda
 {
 private:
-    int qtdprodutos;
+    int qtdtotal;
+    float valorTotal;
+    float valorCdesconto;
+    float valorPago;
     bool desconto;
+    
+
 
     
 public:

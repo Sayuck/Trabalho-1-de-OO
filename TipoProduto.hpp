@@ -4,7 +4,7 @@ using namespace std;
 class TipoProduto
 {
 private:
-    string tipo;
+    string classificacao;
 
 public:
     TipoProduto(/* args */);
