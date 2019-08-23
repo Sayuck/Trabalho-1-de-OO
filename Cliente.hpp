@@ -1,3 +1,4 @@
+#include <iostream>
 #include <string>
 using namespace std;
 
@@ -12,19 +13,14 @@ private:
 public:
     Cliente(string nome, long int cpf);
     ~Cliente();
+    string getNome();
+    void setNome(string nome);
+    string getEmail();
+    void setEmail(string email);
+    int getTelefone();
+    void setTelefone(int telefone);
+    int getCpf();
+    void setCpf(long int cpf);
+    bool isSocio();
+    void setSocio(bool socio);
 };
-
-Cliente::Cliente(string nome, long int cpf)
-{
-    this->nome = nome;
-    this->cpf = cpf;
-    this->email = "naocadastrado";
-    this->socio = false;
-    this->telefone = NULL;
-cout<< "Cliente criado com sucesso"<<this->nome<<"Possui cadastro agora"<< endl;
-}
-
-Cliente::~Cliente()
-{
-    free(Cliente);
-}
